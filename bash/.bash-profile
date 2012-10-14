@@ -1,0 +1,22 @@
+# command line customization
+PS1='\e[1;32m\]\w\$\[\e[0m\] '
+
+# put bash in "vi" mode
+set -o vi
+
+# path adjustments
+export PATH=$PATH:~/dev/node/install/bin
+
+# editing this file should be easy
+alias brc="vim ~/.bash-profile; source ~/.bash-profile; echo 'sourced bash-profile'"
+
+# aliases
+alias gd="git diff ^HEAD"
+alias gs="git status"
+alias ll="ls -la"
+
+# all environment specific personalizations should go in a separate file
+if [[ -s ~/.bash-profile.specific ]]; then
+	source ~/.bash-profile.specific
+	echo 'sourced bash-profile.specific'
+fi
