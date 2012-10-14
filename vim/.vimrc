@@ -1,7 +1,8 @@
+" Colors
 set t_Co=256
 colorscheme zenburn
-hi IncSearch	term=reverse cterm=reverse ctermfg=228 ctermbg=238
-hi Search	term=reverse cterm=reverse ctermfg=228 ctermbg=238
+
+" Highlight active line
 set cursorline
 
 " Line numbers
@@ -16,6 +17,8 @@ set tabstop=4
 
 " Search
 set incsearch
+hi IncSearch term=reverse cterm=reverse ctermfg=228 ctermbg=238
+hi Search term=reverse cterm=reverse ctermfg=228 ctermbg=238
 
 " Status bar
 set laststatus=2
