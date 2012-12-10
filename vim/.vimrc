@@ -9,14 +9,16 @@ set cursorline
 set number
 
 " Indentation
-set cindent
-set smartindent
+" set cindent
+" set smartindent
 set autoindent
+set expandtab
 set shiftwidth=4
 set tabstop=4
 
 " Search
 set incsearch
+set hlsearch
 hi IncSearch term=reverse cterm=reverse ctermfg=228 ctermbg=238
 hi Search term=reverse cterm=reverse ctermfg=228 ctermbg=238
 
