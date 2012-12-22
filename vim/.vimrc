@@ -16,6 +16,9 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+" Syntax highlighting
+syntax on
+
 " Search
 set incsearch
 set hlsearch
