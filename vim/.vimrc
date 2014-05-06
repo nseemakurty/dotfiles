@@ -2,9 +2,6 @@
 set t_Co=256
 "colorscheme zenburn
 
-" Highlight active line
-set cursorline
-
 " Line numbers
 set number
 
