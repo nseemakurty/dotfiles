@@ -1,6 +1,6 @@
 " Colors
 set t_Co=256
-colorscheme zenburn
+"colorscheme zenburn
 
 " Highlight active line
 set cursorline
