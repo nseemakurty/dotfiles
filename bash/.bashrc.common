@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # command line customization
 PS1='\e[1;32m\]\w\$\[\e[0m\] '
 
@@ -10,7 +8,7 @@ set -o vi
 export EDITOR=vim
 
 # editing this file should be easy
-alias brc="vim ~/.bash-profile; source ~/.bash-profile; echo 'sourced bash-profile'"
+alias brc="vim ~/.bashrc.common; source ~/.bash_profile; echo 'sourced bash profile'"
 
 # aliases
 alias grep="grep -i"
