@@ -4,6 +4,9 @@ PS1='\e[1;32m\]\w\$\[\e[0m\] '
 # put bash in "vi" mode
 set -o vi
 
+# use vim as default editor
+export EDITOR=vim
+
 # editing this file should be easy
 alias brc="vim ~/.bash-profile; source ~/.bash-profile; echo 'sourced bash-profile'"
 alias brs="vim ~/.bash-profile.specific; source ~/.bash-profile.specific; echo 'sourced bash-profile.specific'"
